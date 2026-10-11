@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'payhere_demo';
 $user = 'root';
-$pass = '';          // XAMPP default: password එක හිස්
+$pass = '';          // XAMPP default: empty password
 
 try {
     $pdo = new PDO(
